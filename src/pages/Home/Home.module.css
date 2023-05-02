@@ -1,0 +1,19 @@
+.wrapper {
+  width: 92%;
+  height: 100%;
+  padding: 4%;
+  opacity: 0;
+  animation: ani 2.5s forwards;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error {
+  margin-top: 30px;
+}
+
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
